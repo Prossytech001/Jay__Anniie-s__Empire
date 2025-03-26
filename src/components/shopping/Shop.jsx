@@ -1,7 +1,7 @@
 import React from 'react'
 import "../shopping/Shop.css"
 import { Link } from 'react-router-dom'
-import { feature } from './Shopfile'
+import { prod} from './Shopfile'
 import { useState, useEffect,useRef  } from 'react'
 import "../Navbar/Nav"
 import { FaStar } from "react-icons/fa6";
@@ -12,15 +12,15 @@ const Shop = ({searchTerm, onAddToCart}) => {
    
 
     const [visibleProducts, setVisibleProducts] = useState(6); 
-    const [filteredProducts, setFilteredProducts] = useState(feature);
+    const [filteredProducts, setFilteredProducts] = useState(prod);
     const loader = useRef(null);
 
     useEffect(() => {
         if (searchTerm.trim() === "") {
-            setFilteredProducts(feature);
+            setFilteredProducts(prod);
             setVisibleProducts(6);
         } else {
-            const filtered = feature.filter(product => 
+            const filtered = prod.filter(product => 
                 product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                 product.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
                 product.category.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -29,7 +29,7 @@ const Shop = ({searchTerm, onAddToCart}) => {
             setFilteredProducts(filtered);
             setVisibleProducts(6);
         }
-    }, [searchTerm, feature]);
+    }, [searchTerm, prod]);
     
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
@@ -72,7 +72,8 @@ const Shop = ({searchTerm, onAddToCart}) => {
                                                                <div className="img-feature">
                                                                <img src={product.image} alt={product.name} className="imgfeature" />
                                                                </div>
-                                                               </Link>
+                                    </Link>
+                                                               
                                 <div className="product-details p-3">
                                     <h3 className="produt__name">{product.name}</h3>
                                     <p className="price__fea">&#8358;{product.price}</p>

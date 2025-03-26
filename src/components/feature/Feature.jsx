@@ -149,10 +149,11 @@ const Feature = () => {
                                 <div className="img-feature">
                                 <img src={product.image} alt={product.name} className="imgfeature" />
                                 </div>
-                                </Link>
+                               
                                 <h3 className="produt__name">{product.name}</h3>
                                 <p className="price__fea"> &#8358;{product.price}</p>
                                 <p className="discount__fea">&#8358; {product.discount}</p>
+                                 </Link>
 
                                 <div className="star__fea flex items-center space-x-2">
                                     {[1, 2, 3, 4, 5].map((star) => (

@@ -40,7 +40,7 @@ function App() {
 <Route path='/' element={<Homepage/>}/>
 <Route path='/product/:id' element={<Productpage products={products} onAddToCart={handleAddToCart} cart={cart} />}/>
 <Route path="/cart" element={<Cartpage cart={cart} setCart={setCart}  />} />
-<Route path='/Shop' element={<Shoppingpage searchTerm={searchTerm} setSearchTerm={setSearchTerm}  onAddToCart={handleAddToCart} />} />
+<Route path='/Shop' element={<Shoppingpage searchTerm={searchTerm} setSearchTerm={setSearchTerm}  onAddToCart={handleAddToCart} cart={cart}/>} />
 <Route path='/contact' element={<ContactUs/>} />
 
 

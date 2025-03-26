@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Arrows&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Arrows&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Arrows&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+  --primary:  #ff92c9;
+  --secondary: #f2f4f7;
+  --tertiary:#213343;
+  --quaternary: #eb008b;
+  --quinary:  #fefefe32;
+  --black: #000;
+  --white: #fff;
+  --gray: #7f8c8d;
+  --green: #007a6c;
+  --bgblue: #e5ffe5;
+  --font: Playfair Display, serif;
+  --font2: Poppins, sans-serif;
+  --font3: Raleway, sans-serif;
+  --gold: #D4AF37;
+  
+  
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Poppins, sans-serif;
+}
+body{
+  background-color: var(--secondary);
+}

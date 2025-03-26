@@ -1,0 +1,116 @@
+.footr{
+  background-color: var(--white);
+   
+    padding: 10px 0;
+    
+    display: flex;
+    min-height: 50vh;
+    width: 100%;
+    
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+    
+}
+.social__fotlink{
+    display: flex;
+    
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.link__footer a{
+    place-items: center;
+    font-size: 20px;
+    display: flex;
+    background-color: var(--gray);
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: var(--tertiary);
+}
+.footer__social{
+    display: flex;
+    gap: 1rem;
+}
+.footer__logo li{
+    font-size: 0.7rem;
+    color: var(--tertiary);
+    display: flex;
+    place-items: center;
+    margin-top: 30px;
+}
+.link__footer h1{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.About__footer h1{
+    font-size: 0.8rem;
+    font-weight: 500;
+   
+}
+.About__footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+}
+.About__footer a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: var(--quaternary);
+    transition: width 0.3s;
+}
+.About__footer a:hover::after{
+    width: 100%;
+}
+.footer__cotent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.footer__logo img{
+    width: 100px;
+    height: 100px;
+}
+@media All and (max-width: 700px){
+    .footer__cotent{
+        display: block;
+    }
+    .footer__logo img{
+        width: 100px;
+        height: 100px;
+    }
+    .footer__social{
+        display: block;
+    }
+    .social__fotlink{
+        display: flex;
+        line-height: 20px;
+        justify-content: none;
+        align-items: start;
+    }
+
+    .footr{
+        min-height: 80vh;
+    }
+    .About__footer h1{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 20px;
+       
+    }
+    .link__footer h1{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 20px;
+       
+    }
+}

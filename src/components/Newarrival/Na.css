@@ -1,0 +1,282 @@
+ .arraval{
+   place-items: center;
+   position: relative;
+   
+    overflow: hidden;
+    
+   
+ }
+ .arraval{
+    place-items: center;
+    display: flex;
+    width: 100%;  
+    flex-direction: column;
+   
+    align-items: center;
+ }
+ .Art-review-container{
+   min-height: 130vh;
+   display: flex;
+   
+   width: 100%;
+    
+   
+   
+
+ }
+ .Art-review{
+   width: 100%;
+ }
+ .art__content{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      padding: 1em;
+
+      border-radius: 10px;
+
+      margin: 1em;
+      overflow: hidden;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+ }
+ .art__content p{
+      color: var(--gray);
+      font-size: 1rem;
+      font-weight: 300;
+      margin: 1em;
+ }
+ .art__content h1{
+      
+      color: var(--tertiary);
+      font-size: 3rem;
+      font-weight: 500;
+    
+ }
+ 
+ .Art-review-container .Art-review {
+    
+    display: flex;
+   
+    width: 100%;
+  
+   
+   
+ }  
+ 
+ .Art-review .review{
+    
+    opacity: 0;
+    transform: translateY(20px);
+    transition:  opacity 2s ease-in-out, transform 2s ease-in-out;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 10px;
+ 
+ }
+ 
+ .review.active{
+     opacity: 1;
+     transform: translateY(0);
+     width: 100%;
+  }
+ 
+ 
+ 
+ .Na__img{
+    height: 25rem;
+    width: 30rem;
+ }
+ 
+ 
+ 
+ 
+ .Art-review .review{
+    position: absolute;
+    opacity: 0;
+    transform: translateY(20px);
+    transition:  opacity 2s ease-in-out, transform 2s ease-in-out;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+ 
+    padding: 10px;
+   
+    border-radius: 10px;
+ 
+ }
+ 
+ .review.active{
+     opacity: 1;
+     transform: translateY(0);
+  }
+  .review__space{
+   display: flex;
+   
+   
+  
+   position: relative;
+   width: 50%;
+  }
+ 
+ 
+ 
+ 
+ .review .details{
+       width: 90%;
+    height: 100%;
+    position: absolute;
+    bottom: -30%;
+   right: -20%;
+     height: auto;
+   display: flex;
+   flex-direction: column;
+  text-align: start;
+     gap: 1em;
+     justify-content: center;
+     background-color: var(--white);
+     padding: 1rem;
+     border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.281);
+    
+   
+   
+ }
+ 
+ .details .detailsh3{
+     text-align: justify;
+     font-size: 30px;
+
+ }
+ 
+ .details .detailsp{
+    font-size: 1rem;
+    color: var(--gray);
+     
+     
+    
+ }
+ 
+ 
+ .details .quoteh3{
+    font-size: large;
+     color: var(--quaternary);
+    
+   
+    
+ }
+ 
+ .quo{
+   font-size: 30px;
+ }
+ .details button{
+    background-color: var(--quaternary);
+    color: var(--white);
+    
+      padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer ;
+    font-size: 15px;
+    
+   
+    gap: 0.5rem;
+ }
+ @media All and (max-width: 840px){
+   .review .details{
+      width: 100%;
+      bottom: -30%;
+      right: -50%;
+   }
+   .Art-review-container{
+      min-height: 80vh;
+      
+       
+      
+      
+   
+    }
+
+ }
+ @media All and (max-width: 800px){
+   .review .details{
+      width: 100%;
+      bottom: -30%;
+      right: -50%;
+   }
+   .Art-review-container{
+      min-height: 90vh;
+      
+       
+      
+      
+   
+    }
+
+ }
+ @media All and (max-width: 700px){
+   .review__space{
+      width: 100%;
+   }
+   .review .details{
+      width: 100%;
+      bottom: -60%;
+      right: 1%;
+   }
+   .Art-review-container{
+      min-height: 140vh;
+      
+       
+      
+      
+   
+    }
+    .art__content{
+      padding: 0.5rem;
+    }
+
+ }
+ @media All and (max-width: 400px){
+   .review__space{
+      width: 100%;
+   }
+   .review .details{
+      width: 100%;
+      bottom: -60%;
+      right: 1%;
+   }
+   .Art-review-container{
+      min-height: 150vh;
+      
+       
+      
+      
+   
+    }
+
+ }
+ @media All and (max-width: 350px){
+   .review__space{
+      width: 100%;
+   }
+   .review .details{
+      width: 100%;
+      bottom: -60%;
+      right: 1%;
+   }
+   .Art-review-container{
+      min-height: 220vh;
+      
+       
+      
+      
+   
+    }
+
+ }

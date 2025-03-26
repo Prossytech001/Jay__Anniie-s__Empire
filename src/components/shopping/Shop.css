@@ -1,0 +1,39 @@
+.shop__star{
+    display: flex;
+    color: goldenrod;
+    gap: 2px;
+    margin-left: 20px;
+}
+.shop__cart{
+    background-color: var(--bgblue);
+    color: var(--green);
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 0.6rem 0.8rem;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+.shop__cart:hover{
+    background-color: var(--green);
+    color: var(--bgblue);
+}
+.shop__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+    background-color: var(--tertiary);
+    color: var(--white);
+}
+.shop__header h1{
+    font-size: 30px;
+    text-align: center;
+}
+.shop__header p{
+    font-size: 15px;
+    text-align: center;
+}
+.shopping__boby{
+   padding: 0.5rem;
+}

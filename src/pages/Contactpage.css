@@ -1,0 +1,45 @@
+.contact-us-section{
+    min-height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.contact__map{
+    width: 100%;
+    height: 20rem;
+}
+.contact__map iframe{
+    width: 100%;
+    height: 100%;
+}
+.text__contact{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--tertiary);
+
+}
+.p__contact{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--tertiary);
+    
+}
+.cantact-p{
+    padding: 1rem;
+}
+.whatsapp {
+    background-color: var(--bgblue);
+    font-size: 18px;
+    color: var(--green);
+   border: 1px solid var(--green);
+  
+    padding: 0.5rem 0.5rem;
+    border-radius: 10px;
+    
+}
+.logo--ul--contact{
+    margin-bottom: 29px;
+}

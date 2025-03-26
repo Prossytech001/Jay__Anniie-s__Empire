@@ -87,7 +87,10 @@ ul li a:hover::after{
 
 
 @media All and (max-width: 800px){
-
+    .input input::placeholder{
+        color: var(--tertiary);
+        font-size: 13px;
+    }
 
     .sidebars2{
         display: flex;

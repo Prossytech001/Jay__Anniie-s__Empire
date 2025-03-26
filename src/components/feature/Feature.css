@@ -125,7 +125,7 @@
     padding: 1rem 0;
 }
 .produt__name{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--tertiary);
     margin-top: 1rem;
     margin-left: 10px;
@@ -134,6 +134,10 @@
     width: 100%;
 }
 @media All and (max-width: 815px){
+    .produt__name{
+        font-size: 15px;
+        font-weight: 800;
+    }
     .add__fea{
         font-size: 10px;
     }

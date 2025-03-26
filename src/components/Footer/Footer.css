@@ -87,9 +87,11 @@
     .footer__logo img{
         width: 100px;
         height: 100px;
+        
     }
     .footer__social{
         display: block;
+        font-size: 15px;
     }
     .social__fotlink{
         display: flex;

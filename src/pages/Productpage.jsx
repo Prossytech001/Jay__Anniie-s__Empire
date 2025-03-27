@@ -94,9 +94,9 @@ const Productpage = ({ onAddToCart, cart }) => {
                 <p className="pp__p">&#8358;{product.price} <div className="discount__pp">&#8358;{product.discount}</div> </p>
                 <p className="pp__r">Average Rating: {averageRating} / 5</p>
                 <div className="pp__social">
-                   <a href=""><IoLogoFacebook/></a> 
-                    <a href=""><AiFillInstagram/></a>
-                    <a href=""><AiFillTikTok/></a>
+                   <a href="https://www.facebook.com/share/162pjwVkn4/?mibextid=LQQJ4d"><IoLogoFacebook/></a> 
+                    <a href="https://www.instagram.com/jay_anniies_empire?igsh=MXQ5cHQ2d3JqMjlqZQ%3D%3D&utm_source=qr"><AiFillInstagram/></a>
+                    <a href="https://www.tiktok.com/@jay_anniies_empire?_t=ZM-8us9KEMoK4j&_r=1"><AiFillTikTok/></a>
                 </div>
                 <div className="pp__description"><span className='pp__detail'>DETAILS:</span>{product.description}</div>
                 <div className="pp__contact">

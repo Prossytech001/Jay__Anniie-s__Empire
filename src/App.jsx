@@ -11,6 +11,9 @@ import {feature} from '../src/components/feature/Featurefile'
 import Shoppingpage from './pages/Shoppingpage'
 import { BrowserRouter , Routes ,Route} from 'react-router-dom'
 import Footer from './components/Footer/Footer'
+import ReactGA from "react-ga4";
+ReactGA.initialize("G-RTCS6GX3CM")
+ReactGA.send("pageview");
 function App() {
   
     const [cart, setCart] = useState(() => {

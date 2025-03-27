@@ -26,7 +26,7 @@ const Footer = () => {
                
             <div className="footer__social">
                <div className="About__footer">
-                <h1>About us</h1>
+                <h1>Hot Link</h1>
                 <Link to="/shop">Shop</Link>
                 <Link to="/contact">Contact</Link>
                </div>

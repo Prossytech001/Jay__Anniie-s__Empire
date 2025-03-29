@@ -34,7 +34,7 @@
          { id: "34", name: 'Colorful Crystal Chandelier', category: 'Chandelier', image: "/chan/65k.jpg",price: 65000 ,discount:69000 , description: "Adds a playful and luxurious touch with vibrant, multi-colored crystals."},
          
          { id: "35", name: 'Probiotic gummies', category: 'Health & Wellness', image: '/boricimg/probiotic gummer.jpg', price: 8000, discount: 9000, description:"convenient and delicious way to support gut health and overall wellness. Formulated with beneficial live bacteria, these gummies help balance the digestive system, enhance nutrient absorption, and boost immune function." },
-         { id: "36", name: 'Boric acid wholesale 50pcs', category: 'Health & Wellness', image: '/boricimg/boriswholesale.jpg', price: 5500 , discount: 6000, description:'Indulge in unforgettable pleasure with our Thrusting Vibrator Dildo, a revolutionary adult toy designed to take your sensations to the next level. Engineered with powerful thrusting and vibrating capabilities, it delivers intense, rhythmic motions that perfectly mimic the real thing.'},
+         { id: "36", name: 'Boric acid wholesale 50pcs', category: 'Health & Wellness', image: '/boricimg/boriswholesale.jpg', price: 5500 , discount: 6000, description:'First grade medical boric acid: treats yeast infections, bacterial infections, eliminates itching, burning sensation, abnormal dicharge, foul smell and after period odor… Wholesale deals'},
         
         
          { id: "37", name: 'Boric acid', category: 'Health & Wellness', image: "/boricimg/boricacid1.jpg",price: 3200 , discount: 4000, description:"A cup of boric acid•Good for VG detox • Stops inflammation and burning sensation •Clears VG itches • Balances VG PH level • Restores ceased mensuration•Bacteriostatic repair •Anti-fungal"},
@@ -106,7 +106,7 @@
              price: 2000 ,
              discount:4000 ,  
              category:"sweetener",
-             description: "The scorpion drink also called the emergency vaginal sweetner, which is 100% herbal and natural, to give you that sensational fantasy you want with your man.",
+             description: "* * Increases energy and helps to lubricate the . * Contains vitamin C, which helps to form and maintain collagen tissue. * Maku Enak honey is a natural source of nitrogen oxide, the chemical released into the blood when excited. * It can be consumed directly from the bag or mixed with your desired beverage",
          },
          {
              id: "78",
@@ -115,7 +115,7 @@
              price: 7000 ,
              discount:10000 ,  
              category:"sweetener",
-             description: "The scorpion drink also called the emergency vaginal sweetner, which is 100% herbal and natural, to give you that sensational fantasy you want with your man.",
+             description: "The emergency Pussysweetner combo, which is 100% herbal and natural, to give you that sensational fantasy you want with your man. Gorontula syrup ,Sugar lumps ,Pussy sugar ,Tahina Sweetner biscuit",
          },
          {
              id: "79",
@@ -124,16 +124,16 @@
              price: 4500 ,
              discount:7000 ,  
              category:"sweetener",
-             description: "The scorpion drink also called the emergency vaginal sweetner, which is 100% herbal and natural, to give you that sensational fantasy you want with your man.",
+             description: "The emergency Pussysweetner combo, which is 100% herbal and natural, to give you that sensational fantasy you want with your man",
          },
          {
              id: "80",
-             name: "Huger control",
+             name: "Hunger control",
              image: "/aphroimg/hunger control.jpg",
              price: 10000 ,
              discount:12000 ,  
              category:"sweetener",
-             description: "The scorpion drink also called the emergency vaginal sweetner, which is 100% herbal and natural, to give you that sensational fantasy you want with your man.",
+             description: "Hunger control pills, also known as appetite suppressants, help reduce hunger and cravings by affecting brain chemicals or digestion. They are commonly used for weight management and are available in prescription and over-the-counter (OTC) forms.",
          },
          {
              id: "81",

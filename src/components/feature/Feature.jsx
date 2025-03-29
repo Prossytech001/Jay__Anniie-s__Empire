@@ -60,15 +60,7 @@ const Feature = () => {
         localStorage.setItem('products', JSON.stringify(filteredProducts));
     }, [filteredProducts]);
 
-    /*useEffect(() => {
-        const savedProducts = localStorage.getItem('products');
-        if (savedProducts) {
-            setFilteredProducts(JSON.parse(savedProducts));
-            setFilteredProducts(initialProducts);
-        } else {
-            setFilteredProducts(initialProducts);
-        }
-    }, []);*/
+    
     useEffect(() => {
         const savedProducts = localStorage.getItem('products');
         if (savedProducts) {

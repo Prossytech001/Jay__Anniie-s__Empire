@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import { feature } from '../components/feature/Featurefile';
+
 import { useParams, Link,useNavigate } from 'react-router-dom';
-import { Star } from 'lucide-react';
+
 import "../pages/Productpage.css";
 import { IoLogoFacebook } from "react-icons/io5";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillTikTok } from "react-icons/ai";
 import { IoMdArrowBack } from "react-icons/io";
-import { BsCart4 } from "react-icons/bs";
 
 
-const Productpage = ({ onAddToCart, cart }) => {
+
+const Productpage = ({ onAddToCart}) => {
     const { id } = useParams();
     const navigate = useNavigate();
 

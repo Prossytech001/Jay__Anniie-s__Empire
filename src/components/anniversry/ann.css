@@ -1,0 +1,23 @@
+marquee{
+    color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ed0676;
+  
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.Marquee{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background-color: #ed0676;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+}
